@@ -29,3 +29,97 @@
 [2026-01-06 17:08:37.066] [INFO ][main][StandardEngine] Starting Servlet engine: [Apache Tomcat/10.1.50]
 [2026-01-06 17:08:37.094] [INFO ][main][[/api/library]] Initializing Spring embedded WebApplicationContext
 [2026-01-06 17:08:37.310] [INFO ][main][StandardService] Stopping service [Tomcat]
+[2026-01-09 15:18:14.259] [INFO ][main][LibraryAdminApplication] Starting LibraryAdminApplication using Java 21.0.6 with PID 4200 (E:\library\library\library-admin\target\classes started by shent in E:\library\library)
+[2026-01-09 15:18:14.265] [INFO ][main][LibraryAdminApplication] The following 1 profile is active: "dev"
+[2026-01-09 15:18:15.160] [INFO ][main][Http11NioProtocol] Initializing ProtocolHandler ["http-nio-8080"]
+[2026-01-09 15:18:15.161] [INFO ][main][StandardService] Starting service [Tomcat]
+[2026-01-09 15:18:15.161] [INFO ][main][StandardEngine] Starting Servlet engine: [Apache Tomcat/10.1.50]
+[2026-01-09 15:18:15.197] [INFO ][main][[/api/library]] Initializing Spring embedded WebApplicationContext
+[2026-01-09 15:18:15.459] [INFO ][main][StandardService] Stopping service [Tomcat]
+[2026-01-09 15:23:46.674] [INFO ][main][LibraryAdminApplication] Starting LibraryAdminApplication using Java 21.0.6 with PID 252 (E:\library\library\library-admin\target\classes started by shent in E:\library\library)
+[2026-01-09 15:23:46.679] [INFO ][main][LibraryAdminApplication] The following 1 profile is active: "dev"
+[2026-01-09 15:23:47.353] [INFO ][main][Http11NioProtocol] Initializing ProtocolHandler ["http-nio-8080"]
+[2026-01-09 15:23:47.354] [INFO ][main][StandardService] Starting service [Tomcat]
+[2026-01-09 15:23:47.354] [INFO ][main][StandardEngine] Starting Servlet engine: [Apache Tomcat/10.1.50]
+[2026-01-09 15:23:47.389] [INFO ][main][[/api/library]] Initializing Spring embedded WebApplicationContext
+[2026-01-09 15:23:47.775] [INFO ][main][Http11NioProtocol] Starting ProtocolHandler ["http-nio-8080"]
+[2026-01-09 15:23:47.796] [INFO ][main][LibraryAdminApplication] Started LibraryAdminApplication in 1.463 seconds (process running for 2.309)
+[2026-01-09 15:23:47.823] [INFO ][main][DruidDataSource] {dataSource-0} closing ...
+[2026-01-09 15:24:04.842] [INFO ][main][LibraryAdminApplication] Starting LibraryAdminApplication using Java 21.0.6 with PID 14792 (E:\library\library\library-admin\target\classes started by shent in E:\library\library)
+[2026-01-09 15:24:04.849] [INFO ][main][LibraryAdminApplication] The following 1 profile is active: "dev"
+[2026-01-09 15:24:05.534] [INFO ][main][Http11NioProtocol] Initializing ProtocolHandler ["http-nio-8080"]
+[2026-01-09 15:24:05.535] [INFO ][main][StandardService] Starting service [Tomcat]
+[2026-01-09 15:24:05.535] [INFO ][main][StandardEngine] Starting Servlet engine: [Apache Tomcat/10.1.50]
+[2026-01-09 15:24:05.565] [INFO ][main][[/api/library]] Initializing Spring embedded WebApplicationContext
+[2026-01-09 15:24:05.924] [INFO ][main][Http11NioProtocol] Starting ProtocolHandler ["http-nio-8080"]
+[2026-01-09 15:24:05.943] [INFO ][main][LibraryAdminApplication] Started LibraryAdminApplication in 1.409 seconds (process running for 2.203)
+[2026-01-09 15:24:05.970] [INFO ][main][DruidDataSource] {dataSource-0} closing ...
+[2026-01-09 15:24:17.679] [INFO ][main][LibraryAdminApplication] Starting LibraryAdminApplication using Java 21.0.6 with PID 22128 (E:\library\library\library-admin\target\classes started by shent in E:\library\library)
+[2026-01-09 15:24:17.683] [INFO ][main][LibraryAdminApplication] The following 1 profile is active: "dev"
+[2026-01-09 15:24:18.287] [INFO ][main][Http11NioProtocol] Initializing ProtocolHandler ["http-nio-8080"]
+[2026-01-09 15:24:18.288] [INFO ][main][StandardService] Starting service [Tomcat]
+[2026-01-09 15:24:18.289] [INFO ][main][StandardEngine] Starting Servlet engine: [Apache Tomcat/10.1.50]
+[2026-01-09 15:24:18.315] [INFO ][main][[/api/library]] Initializing Spring embedded WebApplicationContext
+[2026-01-09 15:24:18.638] [INFO ][main][Http11NioProtocol] Starting ProtocolHandler ["http-nio-8080"]
+[2026-01-09 15:24:18.653] [INFO ][main][LibraryAdminApplication] Started LibraryAdminApplication in 1.246 seconds (process running for 1.851)
+[2026-01-09 15:24:18.677] [INFO ][main][DruidDataSource] {dataSource-0} closing ...
+[2026-01-09 15:25:09.142] [INFO ][main][LibraryAdminApplication] Starting LibraryAdminApplication using Java 21.0.6 with PID 16940 (E:\library\library\library-admin\target\classes started by shent in E:\library\library)
+[2026-01-09 15:25:09.148] [INFO ][main][LibraryAdminApplication] The following 1 profile is active: "dev"
+[2026-01-09 15:25:09.736] [INFO ][main][Http11NioProtocol] Initializing ProtocolHandler ["http-nio-8080"]
+[2026-01-09 15:25:09.737] [INFO ][main][StandardService] Starting service [Tomcat]
+[2026-01-09 15:25:09.737] [INFO ][main][StandardEngine] Starting Servlet engine: [Apache Tomcat/10.1.50]
+[2026-01-09 15:25:09.763] [INFO ][main][[/api/library]] Initializing Spring embedded WebApplicationContext
+[2026-01-09 15:25:10.082] [INFO ][main][Http11NioProtocol] Starting ProtocolHandler ["http-nio-8080"]
+[2026-01-09 15:25:10.098] [INFO ][main][LibraryAdminApplication] Started LibraryAdminApplication in 1.236 seconds (process running for 1.822)
+[2026-01-09 15:25:10.121] [INFO ][main][DruidDataSource] {dataSource-0} closing ...
+[2026-01-09 15:31:36.559] [INFO ][main][LibraryAdminApplication] Starting LibraryAdminApplication using Java 21.0.6 with PID 26160 (E:\library\library\library-admin\target\classes started by shent in E:\library\library)
+[2026-01-09 15:31:36.565] [INFO ][main][LibraryAdminApplication] The following 1 profile is active: "dev"
+[2026-01-09 15:31:37.253] [INFO ][main][Http11NioProtocol] Initializing ProtocolHandler ["http-nio-8080"]
+[2026-01-09 15:31:37.254] [INFO ][main][StandardService] Starting service [Tomcat]
+[2026-01-09 15:31:37.254] [INFO ][main][StandardEngine] Starting Servlet engine: [Apache Tomcat/10.1.50]
+[2026-01-09 15:31:37.285] [INFO ][main][[/api/library]] Initializing Spring embedded WebApplicationContext
+[2026-01-09 15:31:37.492] [INFO ][main][StandardService] Stopping service [Tomcat]
+[2026-01-09 15:32:52.960] [INFO ][main][LibraryAdminApplication] Starting LibraryAdminApplication using Java 21.0.6 with PID 11944 (E:\library\library\library-admin\target\classes started by shent in E:\library\library)
+[2026-01-09 15:32:52.968] [INFO ][main][LibraryAdminApplication] The following 1 profile is active: "dev"
+[2026-01-09 15:32:53.660] [INFO ][main][Http11NioProtocol] Initializing ProtocolHandler ["http-nio-8080"]
+[2026-01-09 15:32:53.661] [INFO ][main][StandardService] Starting service [Tomcat]
+[2026-01-09 15:32:53.661] [INFO ][main][StandardEngine] Starting Servlet engine: [Apache Tomcat/10.1.50]
+[2026-01-09 15:32:53.692] [INFO ][main][[/api/library]] Initializing Spring embedded WebApplicationContext
+[2026-01-09 15:32:53.902] [INFO ][main][StandardService] Stopping service [Tomcat]
+[2026-01-09 15:33:49.622] [INFO ][main][LibraryAdminApplication] Starting LibraryAdminApplication using Java 21.0.6 with PID 18616 (E:\library\library\library-admin\target\classes started by shent in E:\library\library)
+[2026-01-09 15:33:49.628] [INFO ][main][LibraryAdminApplication] The following 1 profile is active: "dev"
+[2026-01-09 15:33:50.325] [INFO ][main][Http11NioProtocol] Initializing ProtocolHandler ["http-nio-8080"]
+[2026-01-09 15:33:50.326] [INFO ][main][StandardService] Starting service [Tomcat]
+[2026-01-09 15:33:50.326] [INFO ][main][StandardEngine] Starting Servlet engine: [Apache Tomcat/10.1.50]
+[2026-01-09 15:33:50.355] [INFO ][main][[/api/library]] Initializing Spring embedded WebApplicationContext
+[2026-01-09 15:33:50.565] [INFO ][main][StandardService] Stopping service [Tomcat]
+[2026-01-09 15:34:21.484] [INFO ][main][LibraryAdminApplication] Starting LibraryAdminApplication using Java 21.0.6 with PID 26184 (E:\library\library\library-admin\target\classes started by shent in E:\library\library)
+[2026-01-09 15:34:21.491] [INFO ][main][LibraryAdminApplication] The following 1 profile is active: "dev"
+[2026-01-09 15:34:22.175] [INFO ][main][Http11NioProtocol] Initializing ProtocolHandler ["http-nio-8080"]
+[2026-01-09 15:34:22.176] [INFO ][main][StandardService] Starting service [Tomcat]
+[2026-01-09 15:34:22.176] [INFO ][main][StandardEngine] Starting Servlet engine: [Apache Tomcat/10.1.50]
+[2026-01-09 15:34:22.207] [INFO ][main][[/api/library]] Initializing Spring embedded WebApplicationContext
+[2026-01-09 15:34:22.562] [INFO ][main][Http11NioProtocol] Starting ProtocolHandler ["http-nio-8080"]
+[2026-01-09 15:34:22.583] [INFO ][main][LibraryAdminApplication] Started LibraryAdminApplication in 1.437 seconds (process running for 2.243)
+[2026-01-09 15:34:22.612] [INFO ][main][DruidDataSource] {dataSource-0} closing ...
+[2026-01-09 15:38:22.361] [INFO ][main][LibraryAdminApplication] Starting LibraryAdminApplication using Java 21.0.6 with PID 3128 (E:\library\library\library-admin\target\classes started by shent in E:\library\library)
+[2026-01-09 15:38:22.366] [INFO ][main][LibraryAdminApplication] The following 1 profile is active: "dev"
+[2026-01-09 15:38:23.027] [INFO ][main][Http11NioProtocol] Initializing ProtocolHandler ["http-nio-8080"]
+[2026-01-09 15:38:23.028] [INFO ][main][StandardService] Starting service [Tomcat]
+[2026-01-09 15:38:23.029] [INFO ][main][StandardEngine] Starting Servlet engine: [Apache Tomcat/10.1.50]
+[2026-01-09 15:38:23.061] [INFO ][main][[/api/library]] Initializing Spring embedded WebApplicationContext
+[2026-01-09 15:38:23.425] [INFO ][main][Http11NioProtocol] Starting ProtocolHandler ["http-nio-8080"]
+[2026-01-09 15:38:23.445] [INFO ][main][LibraryAdminApplication] Started LibraryAdminApplication in 1.403 seconds (process running for 2.251)
+[2026-01-09 16:10:07.160] [INFO ][SpringApplicationShutdownHook][DruidDataSource] {dataSource-0} closing ...
+[2026-01-09 16:10:15.840] [INFO ][main][LibraryAdminApplication] Starting LibraryAdminApplication using Java 21.0.6 with PID 26348 (E:\library\library\library-admin\target\classes started by shent in E:\library\library)
+[2026-01-09 16:10:15.846] [INFO ][main][LibraryAdminApplication] The following 1 profile is active: "dev"
+[2026-01-09 16:10:16.570] [INFO ][main][Http11NioProtocol] Initializing ProtocolHandler ["http-nio-8080"]
+[2026-01-09 16:10:16.571] [INFO ][main][StandardService] Starting service [Tomcat]
+[2026-01-09 16:10:16.571] [INFO ][main][StandardEngine] Starting Servlet engine: [Apache Tomcat/10.1.50]
+[2026-01-09 16:10:16.601] [INFO ][main][[/api/library]] Initializing Spring embedded WebApplicationContext
+[2026-01-09 16:10:16.857] [INFO ][main][DruidDataSourceAutoConfigure] Init DruidDataSource
+[2026-01-09 16:10:17.231] [INFO ][main][DruidDataSource] {dataSource-1} inited
+[2026-01-09 16:10:17.366] [INFO ][main][Http11NioProtocol] Starting ProtocolHandler ["http-nio-8080"]
+[2026-01-09 16:10:17.384] [INFO ][main][LibraryAdminApplication] Started LibraryAdminApplication in 1.862 seconds (process running for 2.702)
+[2026-01-09 16:13:08.704] [INFO ][SpringApplicationShutdownHook][DruidDataSource] {dataSource-1} closing ...
+[2026-01-09 16:13:08.709] [INFO ][SpringApplicationShutdownHook][DruidDataSource] {dataSource-1} closed
