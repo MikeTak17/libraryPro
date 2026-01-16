@@ -1,5 +1,11 @@
+package com.library.common.constant;
+
+import lombok.Data;
+
+import java.io.Serializable;
+
 @Data
-public class BasePage implements Serializable{
+public class BasePage implements Serializable {
     private static final long serialVersionUID = -2560796196204101092L;
 
     /*每頁顯示的資料筆數， 預設為10*/

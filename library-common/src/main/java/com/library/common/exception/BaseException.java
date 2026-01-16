@@ -1,3 +1,7 @@
+package com.library.common.exception;
+
+import com.library.common.enums.ErrorCodeEnum;
+
 public class BaseException extends RuntimeException{
     private static final long serialVersionUID = 1L;
     private Integer code;

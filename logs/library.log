@@ -135,3 +135,31 @@
 [2026-01-13 20:14:22.212] [INFO ][main][LibraryAdminApplication] Started LibraryAdminApplication in 2.311 seconds (process running for 3.836)
 [2026-01-13 20:14:28.126] [INFO ][SpringApplicationShutdownHook][DruidDataSource] {dataSource-1} closing ...
 [2026-01-13 20:14:28.131] [INFO ][SpringApplicationShutdownHook][DruidDataSource] {dataSource-1} closed
+[2026-01-17 00:52:47.656] [INFO ][main][LibraryAdminApplication] Starting LibraryAdminApplication using Java 21.0.6 with PID 15876 (E:\library\library\library-admin\target\classes started by shent in E:\library\library)
+[2026-01-17 00:52:47.663] [INFO ][main][LibraryAdminApplication] The following 1 profile is active: "dev"
+[2026-01-17 00:52:48.491] [INFO ][main][Http11NioProtocol] Initializing ProtocolHandler ["http-nio-8080"]
+[2026-01-17 00:52:48.492] [INFO ][main][StandardService] Starting service [Tomcat]
+[2026-01-17 00:52:48.492] [INFO ][main][StandardEngine] Starting Servlet engine: [Apache Tomcat/10.1.50]
+[2026-01-17 00:52:48.536] [INFO ][main][[/api/library]] Initializing Spring embedded WebApplicationContext
+[2026-01-17 00:52:48.813] [INFO ][main][DruidDataSourceAutoConfigure] Init DruidDataSource
+[2026-01-17 00:52:49.296] [INFO ][main][DruidDataSource] {dataSource-1} inited
+[2026-01-17 00:52:49.451] [INFO ][main][Http11NioProtocol] Starting ProtocolHandler ["http-nio-8080"]
+[2026-01-17 00:52:49.470] [INFO ][main][LibraryAdminApplication] Started LibraryAdminApplication in 2.186 seconds (process running for 3.25)
+[2026-01-17 00:52:51.762] [INFO ][SpringApplicationShutdownHook][DruidDataSource] {dataSource-1} closing ...
+[2026-01-17 00:52:51.766] [INFO ][SpringApplicationShutdownHook][DruidDataSource] {dataSource-1} closed
+[2026-01-17 01:09:07.687] [INFO ][background-preinit][Version] HV000001: Hibernate Validator 8.0.3.Final
+[2026-01-17 01:09:07.711] [INFO ][main][LibraryAdminApplication] Starting LibraryAdminApplication using Java 21.0.6 with PID 26776 (E:\library\library\library-admin\target\classes started by shent in E:\library\library)
+[2026-01-17 01:09:07.715] [INFO ][main][LibraryAdminApplication] The following 1 profile is active: "dev"
+[2026-01-17 01:14:17.874] [INFO ][background-preinit][Version] HV000001: Hibernate Validator 8.0.3.Final
+[2026-01-17 01:14:17.908] [INFO ][main][LibraryAdminApplication] Starting LibraryAdminApplication using Java 21.0.6 with PID 22876 (E:\library\library\library-admin\target\classes started by shent in E:\library\library)
+[2026-01-17 01:14:17.910] [INFO ][main][LibraryAdminApplication] The following 1 profile is active: "dev"
+[2026-01-17 01:14:18.724] [INFO ][main][Http11NioProtocol] Initializing ProtocolHandler ["http-nio-8080"]
+[2026-01-17 01:14:18.725] [INFO ][main][StandardService] Starting service [Tomcat]
+[2026-01-17 01:14:18.725] [INFO ][main][StandardEngine] Starting Servlet engine: [Apache Tomcat/10.1.50]
+[2026-01-17 01:14:18.757] [INFO ][main][[/api/library]] Initializing Spring embedded WebApplicationContext
+[2026-01-17 01:14:18.855] [INFO ][main][DruidDataSourceAutoConfigure] Init DruidDataSource
+[2026-01-17 01:14:19.231] [INFO ][main][DruidDataSource] {dataSource-1} inited
+[2026-01-17 01:14:19.691] [INFO ][main][Http11NioProtocol] Starting ProtocolHandler ["http-nio-8080"]
+[2026-01-17 01:14:19.708] [INFO ][main][LibraryAdminApplication] Started LibraryAdminApplication in 2.136 seconds (process running for 3.157)
+[2026-01-17 01:15:56.924] [INFO ][SpringApplicationShutdownHook][DruidDataSource] {dataSource-1} closing ...
+[2026-01-17 01:15:56.928] [INFO ][SpringApplicationShutdownHook][DruidDataSource] {dataSource-1} closed

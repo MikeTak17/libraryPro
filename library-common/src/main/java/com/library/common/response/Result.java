@@ -1,9 +1,16 @@
+package com.library.common.response;
+
+
+import com.library.common.constant.Constants;
+
+import java.io.Serializable;
+
 public class Result<T> implements Serializable {
     private static final long serialVersionUID = 1L;
 
-    public static final int success = Constans.SUCCESS;
+    public static final int success = Constants.SUCCESS;
 
-    public static final int fail = Constans.FAIL;
+    public static final int fail = Constants.FAIL;
 
     private int code;
 
@@ -48,9 +55,9 @@ public class Result<T> implements Serializable {
 
     private static <T> Result<T> result(T data, int code, String msg){
         Result<T> result = new Result<>();
-        result.Setcode(code);
-        result.SetData(data);
-        result.SetMsg(msg);
+        result.setCode(code);
+        result.setData(data);
+        result.setMsg(msg);
         return result;
     }
 
@@ -63,11 +70,11 @@ public class Result<T> implements Serializable {
     }
 
     public String getMsg(){
-        return msg
+        return msg;
     }
 
     public void setMsg(String msg){
-        this.msg = msgl;
+        this.msg = msg;
     }
 
     public T getData(){

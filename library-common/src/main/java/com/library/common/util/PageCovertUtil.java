@@ -1,3 +1,12 @@
+package com.library.common.util;
+
+import cn.hutool.core.bean.BeanUtil;
+import com.baomidou.mybatisplus.core.metadata.IPage;
+import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
+
+import java.util.ArrayList;
+import java.util.List;
+
 public class PageCovertUtil {
     public static <P, V> IPage<V> pageVoCovert(IPage<P> pageInfo, Class<V> v){
         try{
@@ -11,7 +20,7 @@ public class PageCovertUtil {
                 List<V> list = new ArrayList<>();
                 for (P record : records){
                     if (record != null){
-                        v.getDeclaredConstructor().newInstance();
+                        V newV = v.getDeclaredConstructor().newInstance();
                         BeanUtil.copyProperties(record, newV);
                         list.add(newV);
                     }
@@ -19,7 +28,6 @@ public class PageCovertUtil {
                 page.setRecords(list);
                 page.setTotal(pageInfo.getTotal());
                 return page;
-''
             }
         } catch (Exception e){
             e.printStackTrace();
