@@ -1,0 +1,27 @@
+services:
+  db:
+    image: mysql:8.0
+    container_name: library-mysql
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_DATABASE: library_v1
+      MYSQL_USER: mike
+      MYSQL_PASSWORD: guang000
+      TZ: Asia/Taipei
+    ports:
+      - "3307:3306"
+    volumes:
+      - mysql_data:/var/lib/mysql
+      # 如果你有 schema.sql / init.sql，放在 ./db/init/ 底下即可自動初始化
+      - ./db/init:/docker-entrypoint-initdb.d
+    command: >
+      --character-set-server=utf8mb4
+      --collation-server=utf8mb4_unicode_ci
+    healthcheck:
+      test: ["CMD", "mysqladmin", "ping", "-h", "localhost", "-proot"]
+      interval: 5s
+      timeout: 3s
+      retries: 30
+
+volumes:
+  mysql_data:

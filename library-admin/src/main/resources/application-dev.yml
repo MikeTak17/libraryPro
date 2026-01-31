@@ -2,8 +2,8 @@ spring:
   datasource:
     type: com.alibaba.druid.pool.DruidDataSource
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://127.0.0.1:3306/library_v1?useUnicode=true&characterEncoding=UTF-8&serverTimezone=Asia/Taipei&rewriteBatchedStatements=true
-    username: root
+    url: jdbc:mysql://${DB_HOST:127.0.0.1}:${DB_PORT:3307}/${DB_NAME:library_v1}?useUnicode=true&characterEncoding=UTF-8&serverTimezone=Asia/Taipei&rewriteBatchedStatements=true&allowPublicKeyRetrieval=true&useSSL=false
+    username: mike
     password: guang000
 
     druid:
