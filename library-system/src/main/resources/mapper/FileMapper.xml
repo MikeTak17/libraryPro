@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.library.system.modules.file.mapper.FileMapper">
+
+    <resultMap type="com.library.system.modules.file.entity.File" id="FileMap">
+        <result property="id" column="id" jdbcType="INTEGER"/>
+        <result property="username" column="username" jdbcType="VARCHAR"/>
+        <result property="originalFilename" column="original_filename" jdbcType="VARCHAR"/>
+        <result property="fileSize" column="file_size" jdbcType="INTEGER"/>
+        <result property="url" column="url" jdbcType="VARCHAR"/>
+        <result property="storagePlatform" column="storage_platform" jdbcType="VARCHAR"/>
+        <result property="basePath" column="base_path" jdbcType="VARCHAR"/>
+        <result property="storagePath" column="storage_path" jdbcType="VARCHAR"/>
+        <result property="storageFilename" column="storage_filename" jdbcType="VARCHAR"/>
+        <result property="ext" column="ext" jdbcType="VARCHAR"/>
+        <result property="objectType" column="object_type" jdbcType="INTEGER"/>
+        <result property="fileSign" column="file_sign" jdbcType="VARCHAR"/>
+        <result property="delFlag" column="del_flag" jdbcType="BYTE"/>
+        <result property="createTime" column="create_time" jdbcType="TIMESTAMP"/>
+    </resultMap>
+
+</mapper>
+

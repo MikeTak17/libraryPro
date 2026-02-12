@@ -35,6 +35,7 @@
 	<modules>
 		<module>library-admin</module>
 		<module>library-common</module>
+		<module>library-system</module>
 	</modules>
 
 

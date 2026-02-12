@@ -9,7 +9,7 @@ services:
       MYSQL_PASSWORD: guang000
       TZ: Asia/Taipei
     ports:
-      - "3307:3306"
+      - "3306:3306"
     volumes:
       - mysql_data:/var/lib/mysql
       # 如果你有 schema.sql / init.sql，放在 ./db/init/ 底下即可自動初始化
