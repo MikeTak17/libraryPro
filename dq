@@ -1,0 +1,59 @@
+[33mcommit 71396424668b2f6a8813a1d52c0e5eca6ff5b593[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mdev[m[33m)[m
+Author: MikeTak17 <shentai77@gmail.com>
+Date:   Sat Feb 14 21:11:38 2026 +0800
+
+    新增minio docker 設定
+
+[33mcommit 6db562e7b83e94c4f8480a84169a7a6a6dd50851[m[33m ([m[1;31morigin/dev[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: MikeTak17 <shentai77@gmail.com>
+Date:   Thu Feb 12 20:09:25 2026 +0800
+
+    新增system module
+
+[33mcommit 942aaeb5b6381916ea341ee73ee873c954dc07d3[m
+Author: Mike Tak <shentai77@gmail.com>
+Date:   Sat Jan 31 14:10:08 2026 +0800
+
+    新增Mysql docker設定
+
+[33mcommit e64be522e58e74bcb5d1dcde4c15c56b6d0ea18b[m
+Author: Mike Tak <shentai77@gmail.com>
+Date:   Sat Jan 17 01:18:27 2026 +0800
+
+    East Code設定完成
+
+[33mcommit f5a256f87acb9d0e6c7306f4a182c7f7cd9388c6[m
+Author: Mike Tak <shentai77@gmail.com>
+Date:   Thu Jan 15 21:29:45 2026 +0800
+
+    分頁功能設計與實現
+
+[33mcommit 721fb4b16575dea8a541bb01bd8722034f2e3311[m
+Author: Mike Tak <shentai77@gmail.com>
+Date:   Wed Jan 14 21:17:46 2026 +0800
+
+    通用類別設計與實現
+
+[33mcommit 338be206e041c20abc6f5f4096418b4959028ce2[m[33m ([m[1;31morigin/main[m[33m)[m
+Author: Mike Tak <shentai77@gmail.com>
+Date:   Fri Jan 9 16:14:26 2026 +0800
+
+    MySql與Druid配置完成
+
+[33mcommit 220fece6cf00174b20b55b1f293384a498db2cc4[m
+Author: Mike Tak <shentai77@gmail.com>
+Date:   Tue Jan 6 17:13:09 2026 +0800
+
+    專案設定檔設定完成
+
+[33mcommit 4224052cd94b2f77c2127df2387749139bec417a[m
+Author: Mike Tak <shentai77@gmail.com>
+Date:   Wed Dec 31 16:38:57 2025 +0800
+
+    update local to remote
+
+[33mcommit 376982e3d02b9213180e9653d71f8191ebfd7a1a[m
+Author: MikeTak17 <shentai77@gmail.com>
+Date:   Wed Dec 31 16:14:37 2025 +0800
+
+    Create README.md

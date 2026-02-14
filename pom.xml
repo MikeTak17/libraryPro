@@ -66,6 +66,12 @@
 				<artifactId>library-common</artifactId>
 				<version>${version}</version>
 			</dependency>
+
+			<dependency>
+				<groupId>com.library</groupId>
+				<artifactId>library-system</artifactId>
+				<version>${version}</version>
+			</dependency>
 		</dependencies>
 	</dependencyManagement>
 

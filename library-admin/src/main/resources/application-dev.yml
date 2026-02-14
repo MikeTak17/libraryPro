@@ -37,5 +37,30 @@ spring:
           log-slow-sql: true
           slow-sql-millis: 2000
 
+  file-storage:
+    default-platform: minio-1
+    thumbnail-suffix: ".min.jpg"
+    minio:
+      - platform: minio-1
+        enable-storage: true
+        access-key: zJqKm8JLdp5U9vUgqBX0
+        secret-key: JN2nQh4s0GJDL3LEsPxTTuLRkGsT3eAO1hseNFI6
+        end-point: http://127.0.0.1:9000
+        bucket-name: library
+        domain: http://127.0.0.1:9000/library/
+        base-path: ""
+
+    amazon-s3:
+      - platform: r2-1
+        enable-storage: true
+        access-key: a438f10db782de2c6dbffabd27258410
+        secret-key: 7c2cf6a5893d664e324c91f4c3ecfb6937bc0f9ca6784c8aefc353063cc6b722
+        end-point: https://6457c53a3594064e7dbb2399dba10d85.r2.cloudflarestorage.com/
+        bucket-name: library-pic-r2
+        region: auto
+        domain: https://pub-92eafd428bef4519a19bb458602d89cc.r2.dev
+        base-path: ""
+
+
 
 

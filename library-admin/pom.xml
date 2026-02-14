@@ -66,6 +66,11 @@
             <groupId>com.library</groupId>
             <artifactId>library-common</artifactId>
         </dependency>
+
+        <dependency>
+            <groupId>com.library</groupId>
+            <artifactId>library-system</artifactId>
+        </dependency>
     </dependencies>
 
     <build>
