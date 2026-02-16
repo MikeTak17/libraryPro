@@ -13,10 +13,6 @@ import com.library.system.modules.file.vo.FileVO;
 @Mapper(componentModel = "spring", nullValuePropertyMappingStrategy = NullValuePropertyMappingStrategy.IGNORE)
 public interface FileStructMapper {
 
-    File updateToFile(FileUpdate update);
-
-    File insertToFile(FileInsert insert);
-
     FileVO fileToFileVO(File file);
 
 }

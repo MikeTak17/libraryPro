@@ -7,7 +7,8 @@ import lombok.Getter;
 @AllArgsConstructor
 public enum ErrorCodeEnum {
     SUCCESS(200,"成功"),
-    FAIL(500, "失敗");
+    FAIL(500, "失敗"),
+    FILE_NONE(0001, "空檔案");
 
     private int code;
     private String desc;
