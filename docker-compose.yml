@@ -39,8 +39,18 @@ services:
       - minio_config:/root/.minio
     command: server /data --console-address ":9090" -address ":9000"
 
+  redis:
+    image: redis:7
+    container_name: library-redis
+    ports:
+      - "6379:6379"
+    volumes:
+      - redis_data:/data
+    command: redis-server --appendonly yes
+
 
 volumes:
   mysql_data:
   minio_data:
+  redis_data:
   minio_config:
