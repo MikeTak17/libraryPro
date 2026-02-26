@@ -53,8 +53,8 @@ CREATE TABLE `lib_file`(
     `original_filename`     VARCHAR(100) NOT NULL COMMENT '原始檔案名稱',
     `file_size`     BIGINT(20)  DEFAULT NULL COMMENT '檔案大小',
     `url`           VARCHAR(255) DEFAULT NULL   COMMENT '檔案網址',
-    'storage_platform'  VARCHAR(50) NOT NULL COMMENT '儲存平台',
-    'base_path'     VARCHAR(256)    DEFAULT NULL COMMENT '基本儲存路徑',
+    `storage_platform`  VARCHAR(50) NOT NULL COMMENT '儲存平台',
+    `base_path`     VARCHAR(256)    DEFAULT NULL COMMENT '基本儲存路徑',
     `storage_path`  VARCHAR(512) DEFAULT NULL COMMENT '儲存路徑',
     `storage_filename`  VARCHAR(255) DEFAULT NULL COMMENT '儲存檔案名稱',
     `ext`  VARCHAR(32) DEFAULT NULL COMMENT '檔案副檔名',
@@ -68,3 +68,22 @@ CREATE TABLE `lib_file`(
    COLLATE = utf8mb4_general_ci
    ROW_FORMAT = Dynamic
    COMMENT = '使用者資料表';
+
+DROP TABLE IF EXISTS `lib_email_config`;
+CREATE TABLE `lib_email_config`
+(
+    `id`           INT(11)  NOT NULL AUTO_INCREMENT COMMENT '主鍵ID',
+    `from_user`    VARCHAR(255)      DEFAULT NULL COMMENT '發送電子郵件帳號',
+    `username`     VARCHAR(50)       DEFAULT NULL COMMENT '建立者',
+    `host`         VARCHAR(50)       DEFAULT NULL COMMENT '郵件伺服器SMTP位置',
+    `pass`         VARCHAR(255)      DEFAULT NULL COMMENT '密碼',
+    `port`         VARCHAR(50)       DEFAULT NULL COMMENT '通訊port',
+    `email_status` INT      NOT NULL COMMENT '配置狀態（0正常 1停用）',
+    `remark`       VARCHAR(255)      DEFAULT NULL COMMENT '備註',
+    `create_time`  DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '建立時間',
+    PRIMARY KEY (`id`) USING BTREE
+) ENGINE = InnoDB
+  CHARACTER SET = utf8mb4
+  COLLATE = utf8mb4_general_ci
+  ROW_FORMAT = Dynamic
+    COMMENT ='郵件配置';

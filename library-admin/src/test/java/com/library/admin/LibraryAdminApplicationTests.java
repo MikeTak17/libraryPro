@@ -1,18 +1,22 @@
 package com.library.admin;
 
-import com.library.common.util.RedisUtil;
+import com.library.system.util.EmailUtil;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 
+
 @SpringBootTest
 class LibraryAdminApplicationTests {
     @Autowired
-    private RedisUtil redisUtil;
+    private EmailUtil emailUtil;
 
     @Test
-    void contextLoads() {
-        redisUtil.set("name", "圖書管理系統");
-        System.out.println(redisUtil.get("name"));
+    void mailTest() {
+        String userEmail = "shentai40@gmail.com";
+        String content = "您好親";
+        String title = "我是你爹";
+        emailUtil.sendFromEmail(userEmail, content, title);
+        System.out.println("發送成功");
     }
 }
