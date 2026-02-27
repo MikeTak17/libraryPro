@@ -3554,3 +3554,40 @@ n][DruidDataSourceAutoConfigure] Init DruidDataSource
 [2026-02-26 23:03:21.587] [INFO ][SpringApplicationShutdownHook][FileStorageService] 销毁存储平台 r2-1 成功
 [2026-02-26 23:03:21.588] [INFO ][SpringApplicationShutdownHook][DruidDataSource] {dataSource-1} closing ...
 [2026-02-26 23:03:21.593] [INFO ][SpringApplicationShutdownHook][DruidDataSource] {dataSource-1} closed
+[2026-02-27 16:10:25.302] [INFO ][background-preinit][Version] HV000001: Hibernate Validator 8.0.3.Final
+[2026-02-27 16:10:25.354] [INFO ][main][LibraryAdminApplication] Starting LibraryAdminApplication using Java 21.0.6 with PID 3024 (E:\library\library\library-admin\target\classes started by shent in E:\library\library)
+[2026-02-27 16:10:25.357] [INFO ][main][LibraryAdminApplication] The following 1 profile is active: "dev"
+[2026-02-27 16:10:26.744] [INFO ][main][Http11NioProtocol] Initializing ProtocolHandler ["http-nio-8080"]
+[2026-02-27 16:10:26.745] [INFO ][main][StandardService] Starting service [Tomcat]
+[2026-02-27 16:10:26.745] [INFO ][main][StandardEngine] Starting Servlet engine: [Apache Tomcat/10.1.50]
+[2026-02-27 16:10:26.804] [INFO ][main][[/api/library]] Initializing Spring embedded WebApplicationContext
+[2026-02-27 16:10:26.918] [INFO ][main][DruidDataSourceAutoConfigure] Init DruidDataSource
+[2026-02-27 16:10:27.257] [INFO ][main][DruidDataSource] {dataSource-1} inited
+[2026-02-27 16:10:27.548] [WARN ][main][FileStorageAutoConfiguration] 没有找到 FileRecorder 的实现类，文件上传之外的部分功能无法正常使用，必须实现该接口才能使用完整功能！
+[2026-02-27 16:10:27.564] [INFO ][main][FileStorageServiceBuilder] 加载 MinIO 存储平台：minio-1
+[2026-02-27 16:10:27.568] [INFO ][main][FileStorageServiceBuilder] 加载 Amazon S3 存储平台：r2-1
+[2026-02-27 16:10:28.585] [INFO ][main][Http11NioProtocol] Starting ProtocolHandler ["http-nio-8080"]
+[2026-02-27 16:10:28.606] [INFO ][main][LibraryAdminApplication] Started LibraryAdminApplication in 3.669 seconds (process running for 5.339)
+[2026-02-27 16:10:31.508] [INFO ][SpringApplicationShutdownHook][FileStorageService] 销毁存储平台 minio-1 成功
+[2026-02-27 16:10:31.508] [INFO ][SpringApplicationShutdownHook][FileStorageService] 销毁存储平台 r2-1 成功
+[2026-02-27 16:10:31.509] [INFO ][SpringApplicationShutdownHook][DruidDataSource] {dataSource-1} closing ...
+[2026-02-27 16:10:31.513] [INFO ][SpringApplicationShutdownHook][DruidDataSource] {dataSource-1} closed
+[2026-02-27 16:37:59.928] [INFO ][background-preinit][Version] HV000001: Hibernate Validator 8.0.3.Final
+[2026-02-27 16:37:59.975] [INFO ][main][LibraryAdminApplication] Starting LibraryAdminApplication using Java 21.0.6 with PID 27012 (E:\library\library\library-admin\target\classes started by shent in E:\library\library)
+[2026-02-27 16:37:59.978] [INFO ][main][LibraryAdminApplication] The following 1 profile is active: "dev"
+[2026-02-27 16:38:01.341] [INFO ][main][Http11NioProtocol] Initializing ProtocolHandler ["http-nio-8080"]
+[2026-02-27 16:38:01.342] [INFO ][main][StandardService] Starting service [Tomcat]
+[2026-02-27 16:38:01.342] [INFO ][main][StandardEngine] Starting Servlet engine: [Apache Tomcat/10.1.50]
+[2026-02-27 16:38:01.389] [INFO ][main][[/api/library]] Initializing Spring embedded WebApplicationContext
+[2026-02-27 16:38:01.839] [INFO ][main][DruidDataSourceAutoConfigure] Init DruidDataSource
+[2026-02-27 16:38:02.141] [INFO ][main][DruidDataSource] {dataSource-1} inited
+[2026-02-27 16:38:02.419] [WARN ][main][FileStorageAutoConfiguration] 没有找到 FileRecorder 的实现类，文件上传之外的部分功能无法正常使用，必须实现该接口才能使用完整功能！
+[2026-02-27 16:38:02.434] [INFO ][main][FileStorageServiceBuilder] 加载 MinIO 存储平台：minio-1
+[2026-02-27 16:38:02.438] [INFO ][main][FileStorageServiceBuilder] 加载 Amazon S3 存储平台：r2-1
+[2026-02-27 16:38:03.169] [INFO ][main][Http11NioProtocol] Starting ProtocolHandler ["http-nio-8080"]
+[2026-02-27 16:38:03.196] [INFO ][main][LibraryAdminApplication] Started LibraryAdminApplication in 3.624 seconds (process running for 4.755)
+[2026-02-27 17:07:10.226] [INFO ][http-nio-8080-exec-1][[/api/library]] Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2026-02-27 17:08:17.551] [INFO ][SpringApplicationShutdownHook][FileStorageService] 销毁存储平台 minio-1 成功
+[2026-02-27 17:08:17.551] [INFO ][SpringApplicationShutdownHook][FileStorageService] 销毁存储平台 r2-1 成功
+[2026-02-27 17:08:17.551] [INFO ][SpringApplicationShutdownHook][DruidDataSource] {dataSource-1} closing ...
+[2026-02-27 17:08:17.552] [INFO ][SpringApplicationShutdownHook][DruidDataSource] {dataSource-1} closed

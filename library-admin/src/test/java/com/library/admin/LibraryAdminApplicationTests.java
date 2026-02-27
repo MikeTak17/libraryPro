@@ -14,8 +14,8 @@ class LibraryAdminApplicationTests {
     @Test
     void mailTest() {
         String userEmail = "shentai40@gmail.com";
-        String content = "您好親";
-        String title = "我是你爹";
+        String content = "測試";
+        String title = "郵件發送測試";
         emailUtil.sendFromEmail(userEmail, content, title);
         System.out.println("發送成功");
     }
